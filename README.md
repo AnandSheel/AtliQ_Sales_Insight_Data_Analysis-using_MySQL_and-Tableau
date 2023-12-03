@@ -3,11 +3,17 @@
 ## OVERVIEW:
 
 PROJECT NAME
+
 PROBLEM STATEMENTS
+
 APPROACH - PROJECT PLANNING & AIMS GRID
+
 DATA ANALYST APPROACH
+
 DATA ANALYSIS USING SQL
+
 DATA ANALYSIS USING TABLEAU
+
 NOTE
 
 
@@ -25,3 +31,5 @@ NOTE
     •	Developed a Tableau dashboard to perform analysis, producing quantitative visualizations 
             in Tableau to draw valuable insights based on different parameters affecting the company 
             performance year on year and further provide business solutions.
+
+
