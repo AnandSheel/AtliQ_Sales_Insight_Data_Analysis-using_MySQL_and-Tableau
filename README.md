@@ -51,6 +51,7 @@ NOTE
 ## PROBLEM STATEMENTS:
 
 The sales director wants to know the performance of the company in various Indian states & accordingly provide some discount.
+   
     Q1. Revenue breakdown by cities.
 
     Q2. Revenue breakdown by years & months. 
