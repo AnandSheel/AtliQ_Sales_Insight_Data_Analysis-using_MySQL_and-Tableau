@@ -1,6 +1,6 @@
 # AtliQ-Sales-Insight_Data_Analysis-using_MySQL_and_Tableau
 
-##Overview:
+## Overview:
 
 PROJECT NAME
 
