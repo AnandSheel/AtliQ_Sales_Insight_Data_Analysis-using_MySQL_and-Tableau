@@ -37,3 +37,15 @@ NOTE
 ### About AtliQ:
 
     •	AtliQ Hardware is a Computer Hardware and peripheral Manufacturer company.
+
+### Tools Used:
+    •	Advance Excel
+
+    •	SQL | MySQL
+
+    •	Tableau
+
+    •	Statistics
+
+
+
