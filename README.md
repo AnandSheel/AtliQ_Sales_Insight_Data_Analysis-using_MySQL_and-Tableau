@@ -157,10 +157,12 @@ The sales director wants to know the performance of the company in various India
 
 
 ## Tableau Dashboard: Revenue Analysis
+https://public.tableau.com/app/profile/anand.sheel/viz/AtliQ-Revenue-Insights/RevenueAnalysis?publish=yes
 ![Screenshot 2023-12-03 235044](https://github.com/AnandSheel/AtliQ_Sales_Insight_Data_Analysis-using_MySQL_and-Tableau/assets/149947209/bcd59cd6-179d-45a1-9934-82765df80a70)
 
 
 ## Tableau Dashboard: Profit Analysis
+https://public.tableau.com/app/profile/anand.sheel/viz/AtliQ-Profit-Insights/ProfitAnalysis?publish=yes
 ![Screenshot 2023-12-03 235357](https://github.com/AnandSheel/AtliQ_Sales_Insight_Data_Analysis-using_MySQL_and-Tableau/assets/149947209/a9c527f1-9011-45e7-bd79-942403fb0f49)
 
 
