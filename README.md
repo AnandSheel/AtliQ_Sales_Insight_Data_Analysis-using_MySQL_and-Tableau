@@ -65,7 +65,8 @@ The sales director wants to know the performance of the company in various India
 ## APPROACH - PROJECT PLANNING AND AIMS GRID
 
 1. Purpose: What? Why? What do we want to achieve?
- To unlock sales insights that were not visible before to sales team for decision support 
+ 
+ To unlock sales insights that were not visible before to the sales team for decision support 
  & automate them to reduce manual time spent in data gathering.
 
  •	Sales Director
