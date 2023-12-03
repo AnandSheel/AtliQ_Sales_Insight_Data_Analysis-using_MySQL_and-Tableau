@@ -66,18 +66,5 @@ The sales director wants to know the performance of the company in various India
 
 1. Purpose: What? Why? What do we want to achieve?
  
- To unlock sales insights that were not visible before to the sales team for decision support 
- & automate them to reduce manual time spent in data gathering.
-
- •	Sales Director
- •	I.T. Team
- •	Customer Service Team
- •	Data & Analytics Team
-End Result: What do we want to achieve?
-
- An automated dashboard providing quick & latest sales insights to support data-driven decision-making.
-Success Criteria: What will be our success criteria?
-
-  •	Dashboards uncovering sales order insights with the latest data available.
-  •	Sales team able to make better decisions & prove 10% cost savings of total spend.
-  •	Sales analysts stop data gathering manually to save 20% off 
+  To unlock sales insights that are not visible before for sales team for decision support 
+ & automate them to reduced manual time spent in data gathering.
