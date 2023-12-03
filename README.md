@@ -48,4 +48,37 @@ NOTE
     •	Statistics
 
 
+## PROBLEM STATEMENTS:
 
+The sales director wants to know the performance of the company in various Indian states & accordingly provide some discount.
+    Q1. Revenue breakdown by cities.
+
+    Q2. Revenue breakdown by years & months. 
+
+    Q3. Top 5 customers by revenue & sales quantity.
+
+    Q4. Top 5 Products by revenue.
+
+    Q5. Net Profit & Profit Margin by Market.
+
+
+## APPROACH - PROJECT PLANNING AND AIMS GRID
+
+Purpose: What? Why? What do we want to achieve?
+
+ To unlock sales insights that were not visible before to the sales team for decision support 
+ & automate them to reduce manual time spent in data gathering.
+Stakeholders: Who will be involved?
+
+ •	Sales Director
+ •	I.T. Team
+ •	Customer Service Team
+ •	Data & Analytics Team
+End Result: What do we want to achieve?
+
+ An automated dashboard providing quick & latest sales insights to support data-driven decision-making.
+Success Criteria: What will be our success criteria?
+
+  •	Dashboards uncovering sales order insights with the latest data available.
+  •	Sales team able to make better decisions & prove 10% cost savings of total spend.
+  •	Sales analysts stop data gathering manually to save 20% off 
