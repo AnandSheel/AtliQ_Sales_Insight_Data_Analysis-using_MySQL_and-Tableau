@@ -33,3 +33,7 @@ NOTE
             performance year on year and further provide business solutions.
 
 
+
+### About AtliQ:
+
+    •	AtliQ Hardware is a Computer Hardware and peripheral Manufacturer company.
