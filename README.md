@@ -111,41 +111,165 @@ The sales director wants to know the performance of the company in various India
 
 # DATA ANALYSIS USING SQL:
 
+     • Total Revenue
 
-     • Show all customer records
-           
-           SELECT * FROM customers;
+            SELECT 
+                   SUM(sales_amount)
+            FROM 
+                   transactions;
 
-     • Show the total number of customers
-           
-           SELECT count(*) FROM customers;
+     • Total Sales quantity
+        
+            SELECT 
+                   SUM(sales_qty)
+            FROM 
+                   transactions;
 
-     • Show transactions for the Chennai market (market code for Chennai is Mark001)
-           
-           SELECT * FROM transactions where market_code='Mark001';
+     • Total Profit
 
-     • Show distinct product codes that were sold in Chennai.
-           
-           SELECT distinct product_code FROM transactions where market_code='Mark001';
+            SELECT 
+                   SUM(profit_margin)
+            FROM 
+                   transactions;
 
-     • Show transactions where the currency is US dollars.
-           
-           SELECT * from transactions where currency="USD"
+     • Revenue breakdown by cities.
+     
+            SELECT 
+                   m.markets_code, 
+                   m.markets_name,
+                   SUM(t.sales_amount) AS total_sales
+            FROM 
+                   markets m
+            JOIN 
+                   transactions t
+            ON
+                   m.markets_code = t.market_code 
+            GROUP BY 
+                   m.markets_code
+            ORDER BY 
+                   total_sales 
+            DESC;
 
-     • Show transactions in 2020 join by date table.
-            
-           SELECT transactions., date. FROM transactions INNER JOIN date ON 
-           transactions.order_date=date.date where date.year=2020;
+     • Sales Quantity breakdown by cities.
 
-     • Show total revenue in the year 2020.
-           
-           SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date 
-           where date.year=2020 and transactions.currency="INR\r" or transactions.currency="USD\r";
+           SELECT
+	          m.markets_code, 
+	          m.markets_name,
+	          SUM(t.sales_qty) AS sales_quantity
+           FROM 
+	          markets m
+           JOIN 
+	          transactions t
+            ON 
+	          m.markets_code = t.market_code 
+           GROUP BY 
+               m.markets_code
+           ORDER BY 
+               sales_quantity 
+           DESC ;
 
-     • Show total revenue in the year 2020, January Month.
-    
-           SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date 
-           where date.year=2020 and and date.month_name="January" and (transactions.currency="INR\r" or transactions.currency="USD\r");
+      • Revenue trend by years & months.
+              SELECT 
+                     d.year, d.month_name AS month,
+                     SUM(t.sales_amount) AS total_revenue
+              FROM 
+                     date d
+              JOIN 
+                     transactions t
+              ON 
+                     d.date = t.order_date
+              GROUP BY 
+                     d.year, d.month_name
+              ORDER BY 
+                     d.year, d.month_name;
+
+      • Top 5 customers by revenue 
+
+             SELECT 
+                    c.customer_code, 
+	             c.custmer_name,
+                    SUM(t.sales_amount) as total_sales
+             FROM 
+                    customers c
+             JOIN 
+                    transactions t 
+             USING (customer_code)
+             GROUP BY 
+                    c.customer_code, 
+                    c.custmer_name
+             ORDER BY 
+                    total_sales DESC
+             LIMIT 5;
+
+        • Top 5 Products by revenue.
+
+               SELECT 
+                      p.product_code, 
+                      SUM(t.sales_amount) as total_sales
+               FROM 
+                      products p 
+               JOIN 
+                      transactions t 
+               USING(product_code)
+               GROUP BY 
+                      p.product_code
+               ORDER BY 
+                      total_sales DESC
+               LIMIT 5;
+
+       • Profit margin by market
+
+              SELECT 
+                     m.markets_code, 
+                     m.markets_name,
+                     ROUND(((SUM(t.profit_margin)/SUM(t.sales_amount))*100),2) AS profit_margin_by_market
+              FROM 
+                     markets m
+              JOIN 
+                     transactions t
+              ON 
+                     m.markets_code = t.market_code 
+              GROUP BY 
+                     m.markets_code
+              ORDER BY 
+                     profit_margin_by_market 
+              DESC;
+
+       • Profit trend by years & months
+       
+             SELECT 
+                    d.year, 
+                    d.month_name AS month, 
+                    SUM(t.sales_amount) AS total_revenue,
+                    ROUND(((SUM(t.profit_margin)/SUM(t.sales_amount))*100),2) AS profit_margin_by_market
+             FROM 
+                    date d
+             JOIN 
+                    transactions t
+             ON 
+                    d.date = t.order_date
+             GROUP BY 
+                    d.year, d.month_name
+             ORDER BY 
+                    d.year, d.month_name;        
+
+       • percentage share of each customer type 
+
+              SELECT
+                    c.customer_type,
+                    SUM(t.sales_amount) AS total_sales,
+                    ROUND((SUM(t.sales_amount) / (SELECT SUM(sales_amount) FROM transactions)) * 100,2) AS percentage_share
+              FROM
+                    customers c
+              JOIN
+                    transactions t 
+              ON 
+                    c.customer_code = t.customer_code
+              GROUP BY
+                    c.customer_type
+              ORDER BY
+                    total_sales 
+              DESC;
 
 
 # DATA ANALYSIS USING TABLEAU:
@@ -176,7 +300,7 @@ Based on dashboard insights:
     
     3. Figure out what needs to be done as sales quantity in Kanpur, Surat, Patna, Bhubaneshwar, and Chennai are the lowest.
     
-    4. The north zone has the highest revenue contribution but the lowest profit % whereas the South zone has the lowest revenue contribution but highest 
+    4. The north zone has the highest revenue contribution but the lowest profit % whereas the South zone has the lowest revenue contribution but the highest 
        profit %. Try to increase customers in the South zone.
     
     5. Delhi is the highest revenue contributor and second highest profit contributor whereas Mumbai is the second highest revenue contributor 
