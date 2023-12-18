@@ -84,12 +84,6 @@ The sales director wants to know the performance of the company in various India
 
           An automated dashboard providing quick & latest sales insights to support data-driven decision-making.
                  
-    
-    4. Success Criteria: What will be our success criteria?
-
-          •	Dashboards are uncovering sales order insights with the latest data available.
-          •	Sales team able to make better decisions & prove 10% cost savings of total spend.
-          •	Sales analysts manually stop data gathering to save 20% off. 
 
 
 # DATA ANALYST APPROACH:
