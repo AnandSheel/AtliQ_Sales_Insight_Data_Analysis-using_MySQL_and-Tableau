@@ -298,7 +298,7 @@ Based on dashboard insights:
    
     2. Make some strategy for the Bengaluru market as its revenue is less and profit % is negative.
     
-    3. Figure out what needs to be done as sales quantity in Kanpur, Surat, Patna, Bhubaneshwar, and Chennai are the lowest.
+    3. Figure out what needs to be done as sales quantity in Kanpur, Surat, Patna, Bhubaneshwar, Bengaluru, and Chennai are the lowest.
     
     4. The north zone has the highest revenue contribution but the lowest profit % whereas the South zone has the lowest revenue contribution but the highest 
        profit %. Try to increase customers in the South zone.
