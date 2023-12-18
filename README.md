@@ -19,7 +19,7 @@
 
 ## PROJECT NAME:
 
-### ATLIQ SALES INSIGHTs – DATA ANALYSIS USING SQL AND TABLEAU
+### ATLIQ SALES INSIGHTS – DATA ANALYSIS USING SQL AND TABLEAU
 
 ### About the Project:
     •	Performed Data Cleaning, Analysis, and Visualization on India-based hardware company sales insights.
