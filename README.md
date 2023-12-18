@@ -1,4 +1,4 @@
-# AtliQ-Sales-Insight_Data_Analysis-using_MySQL_and_Tableau
+# AtliQ-Sales-Insights_Data_Analysis-using_MySQL_and_Tableau
 
 ## OVERVIEW:
 
@@ -19,7 +19,7 @@
 
 ## PROJECT NAME:
 
-### ATLIQ SALES INSIGHT – DATA ANALYSIS USING SQL AND TABLEAU
+### ATLIQ SALES INSIGHTs – DATA ANALYSIS USING SQL AND TABLEAU
 
 ### About the Project:
     •	Performed Data Cleaning, Analysis, and Visualization on India-based hardware company sales insights.
