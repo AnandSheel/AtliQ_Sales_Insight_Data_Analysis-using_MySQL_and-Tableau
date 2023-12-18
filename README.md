@@ -63,7 +63,7 @@ The sales director wants to know the performance of the company in various India
     Q5. Net Profit & Profit Margin by Market.
 
 
-## APPROACH - PROJECT PLANNING AND AIMS GRID
+## APPROACH - PROJECT PLANNING 
 
    1. Purpose: What? Why? What do we want to achieve?
 
