@@ -294,9 +294,9 @@ https://public.tableau.com/app/profile/anand.sheel/viz/AtliQ-Profit-Insights/Pro
 
 Based on dashboard insights:
 
-    1. Maintain a healthy relationship with the customers in Bhubaneshwar, Hyderabad, and Chennai as they have the highest profit % by market.
+    1. Maintain a healthy relationship with the customers in Surat, Patna, Bhubaneshwar, and Bhopal as they have the highest profit % by market.
    
-    2. Make some strategy for the Lucknow market as its revenue is less and also profit % is negative.
+    2. Make some strategy for the Bengaluru market as its revenue is less and profit % is negative.
     
     3. Figure out what needs to be done as sales quantity in Kanpur, Surat, Patna, Bhubaneshwar, and Chennai are the lowest.
     
