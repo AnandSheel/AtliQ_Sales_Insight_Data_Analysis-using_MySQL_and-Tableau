@@ -6,7 +6,7 @@
 
        PROBLEM STATEMENTS
 
-       APPROACH - PROJECT PLANNING & AIMS GRID
+       APPROACH - PROJECT PLANNING
 
        DATA ANALYST APPROACH
 
@@ -21,7 +21,7 @@
 
 ### ATLIQ SALES INSIGHT – DATA ANALYSIS USING SQL AND TABLEAU
 
-### About Project:
+### About the Project:
     •	Performed Data Cleaning, Analysis, and Visualization on India-based hardware company sales insights.
 
     •	Developed ETL mappings using SQL to extract the data from unstructured data and 
