@@ -36,7 +36,7 @@
 
 ### About AtliQ:
 
-    •	AtliQ Hardware is a Computer Hardware and peripheral Manufacturer company.
+    •	AtliQ Hardware is an India-based Computer Hardware manufacturer company.
 
 ### Tools Used:
     •	Advance Excel
@@ -50,7 +50,7 @@
 
 ## PROBLEM STATEMENTS:
 
-The sales director wants to know the performance of the company in various Indian states.
+The sales director wants to know the company's performance in various Indian states.
    
     Q1. Revenue breakdown by cities.
 
