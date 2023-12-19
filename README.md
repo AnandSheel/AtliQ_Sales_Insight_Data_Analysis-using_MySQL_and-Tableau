@@ -39,7 +39,6 @@
     •	AtliQ Hardware is an India-based Computer Hardware manufacturer company.
 
 ### Tools Used:
-    •	Advance Excel
 
     •	SQL | MySQL
 
