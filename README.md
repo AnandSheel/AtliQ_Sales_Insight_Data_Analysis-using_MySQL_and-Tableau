@@ -293,7 +293,7 @@ Based on dashboard insights:
     
     3. Figure out what needs to be done as sales quantity in Kanpur, Surat, Patna, Bhubaneshwar, Bengaluru, and Chennai are the lowest.
     
-    4. The north zone has the highest revenue contribution but the lowest profit % whereas the South zone has the lowest revenue contribution but the highest 
+    4. The north zone has a higher revenue contribution but a lower profit % whereas the South zone has a lower revenue contribution but a higher 
        profit %. Try to increase customers in the South zone.
     
     5. Delhi is the highest revenue contributor and second highest profit contributor whereas Mumbai is the second highest revenue contributor 
